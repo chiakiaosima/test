@@ -20,6 +20,7 @@ struct ContentView: View {
             
             Button(action: {
             outputText = "Hi, Swift!"
+                
             }) {
                 Text("切り替えボタン")
                     .foregroundColor(Color.white)
